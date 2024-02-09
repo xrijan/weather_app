@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:weather_app/providers/api_provider.dart';
 import 'package:weather_app/screens/home_screen.dart';
+import 'package:weather_app/utils/theme.dart';
 
 void main() {
   runApp(MultiProvider(providers: [
@@ -15,11 +16,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Weather Application',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
+      theme: AppTheme.themeData,
       home: const HomeScreen(),
     );
   }
