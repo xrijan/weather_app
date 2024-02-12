@@ -2,15 +2,4 @@
 
 The main concept of this app is to combine dark, offensive and ridiculous humor with everyday forecast.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Release Branches: Created when preparing for a new release. It allows for final testing and bug fixing before merging into master and tagging a new release.
